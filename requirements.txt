@@ -1,0 +1,7 @@
+# build tool
+wheel
+
+# libraries
+dash
+plotly
+pandas
