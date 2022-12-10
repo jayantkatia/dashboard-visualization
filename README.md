@@ -14,7 +14,7 @@
     ```shell
        python3 -m venv venv
        source venv/bin/activate
-       pip install -r /path/to/requirements.txt
+       pip install dash plotly pandas
     ```
     This creates a virtual env and installs all the requirements. 
 4. Run
@@ -23,6 +23,7 @@
     ```
     This runs the application and you are good to Go 😉
 
+> Use script.sh to deploy and Refer [this guide](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-22-04)
 
 ## 💜 Development and Contributing
 Yes, please! Feel free to contribute, raise issues and recommend best practices.

@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve Dashboard
+After=network.target
+
+[Service]
+User=YOUR_USERNAME
+Group=www-data
+WorkingDirectory=/home/YOUR_USERNAME/YOUR_PROJECT_FOLDER
+Environment="PATH=/home/YOUR_USERNAME/YOUR_PROJECT_FOLDER/venv/bin"
+ExecStart=/home/YOUR_USERNAME/YOUR_PROJECT_FOLDER/venv/bin/gunicorn --workers 3 --bind unix:dashboard.sock -m 007 wsgi:application
+
+[Install]
+WantedBy=multi-user.target

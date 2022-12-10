@@ -124,4 +124,4 @@ def update_line_chart(continent_selected, checkbox_value):
 
 # Run Server
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(port=8000)
