@@ -1,6 +1,8 @@
 # ✈️ 🇨🇦 Canadian Immigration Visualization Dashboard
 <p align="center"> Dashboard to visualize data of Immigration to Canada by people across the globe. The dashboard story tells the data using line chart, bar graph and pie charts.<p>
 
+Deployed link: https://jayant-dashboard.eastus2.cloudapp.azure.com/
+
 ## ✨ Screenshots
 ![Result 1 Screenshot](./blob/1_result_jayantkatia.png)
 ![Result 2 Screenshot](./blob/2_result_jayantkatia.png)
