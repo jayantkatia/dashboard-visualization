@@ -4,6 +4,7 @@
 # Title: Canadian Immigration Visualization Dashboard
 ## 1. Methodolgy
 This dashboard is made using Dash Plotly. The framework uses callbacks to respond to user interactions and render visualizations.
+![Methodology](https://user-images.githubusercontent.com/56118625/208246780-0b770f55-899a-447d-9b32-a968943c160f.png)
 
 ## 2. Description
 Dashboard to visualize data of Immigration to Canada by people across the globe. The dashboard story tells the data using line chart, bar graph and pie charts.
